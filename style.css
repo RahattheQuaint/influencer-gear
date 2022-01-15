@@ -1,9 +1,17 @@
+body{
+    background-color: rgb(223, 215, 215);
+}
 .header{
  padding: 2%;
  margin-left: 5%;
 }
 section{
     display: flex;
+}
+.header-text{
+    width: 30%;
+    padding: 2%;
+    margin: 0 20% 4% 4%;
 }
 h2{
     font-size: 40px;
@@ -13,12 +21,9 @@ p{
 }
 .background-img{
     background-image: url(images/Circle\ design.svg)
+   
 }
-.width{
-    width: 50%;
-    
-    margin: 0 20% 4% 4%;
-}
+
 .booking-button{
     text-decoration: none;
     background-color: rgb(183, 139, 233);
@@ -36,4 +41,27 @@ p{
     text-align: center;
     font-size: 25px;
     padding-top: 4%;
+}
+h3{
+    font-size: 25px;
+}
+.width{
+    padding: 1%;
+    margin: 2%;
+    border-radius: 2%;
+    background-color: white;
+    
+}
+#position{
+    margin-left: 20%;
+}
+.ratting{
+    color: goldenrod;
+
+}
+.ratting-number{
+    color: gray;
+}
+h4{
+    color: gray;
 }
