@@ -7,6 +7,7 @@ body{
 }
 section{
     display: flex;
+    
 }
 .header-text{
     width: 30%;
@@ -33,6 +34,7 @@ p{
    
 }
 .width-img{
+    
     width: 50%;
     
 }
@@ -44,18 +46,22 @@ p{
 }
 h3{
     font-size: 25px;
+    margin: 2%;
 }
 .width{
-    padding: 1%;
-    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 40%;
     border-radius: 2%;
     background-color: white;
-    height: 45%;
-    
+  
+     align-items: center;
+     justify-content: center;
+     padding: 1%;
+     margin: 1% 4% 4% 10%;
 }
-#position{
-    margin-left: 20%;
-}
+
 .ratting{
     color: goldenrod;
 
@@ -65,14 +71,19 @@ h3{
 }
 h4{
     color: gray;
+    margin: 1%;
+}
+.more-button-position{
+   
+    margin-left:90% ;
 }
 .more-button{
     text-decoration: none;
     color: rgb(182, 51, 51);
     font-size: 20px;
-    margin-top: 35%;
-    margin-right: 8%;
+
 }
+
 .footer{
     text-align: center;
     background-color: rgb(36, 32, 32);
